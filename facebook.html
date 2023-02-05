@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(31, 31, 223);
+        }
+        .box1{
+            height: 500px;
+            width: 450px;
+            border: 1px solid white;
+            background-color: rgb(236, 187, 187);
+            position: relative;
+        }
+        .box1 h1{
+            font-size: 50px;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        form{
+            position: absolute;
+            left: 100px;
+            top: 200px;
+        }
+        .fname{
+            color: blue;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+        .pwd{
+            margin-top: 50px;
+            color: blue;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box1">
+            <h1>Facebook</h1>
+            <form>
+                <label for="fname" class="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="pwd" class="pwd">password</label><br>
+                <input type="password" id="pwd" name="pwd">
+              </form>
+        </div>
+    </section>
+</body>
+</html>
